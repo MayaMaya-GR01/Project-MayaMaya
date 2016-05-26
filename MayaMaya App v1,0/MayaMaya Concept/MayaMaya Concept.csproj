@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8634397D-293C-4F40-A45F-8E29E152C434}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MayaMaya_Concept</RootNamespace>
+    <AssemblyName>MayaMaya Concept</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v15.2, Version=15.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v15.2.Core, Version=15.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v15.2.Core, Version=15.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v15.2, Version=15.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v15.2, Version=15.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AfrekenBetaalscherm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AfrekenBetaalscherm.designer.cs">
+      <DependentUpon>AfrekenBetaalscherm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AfrekenBevestigscherm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AfrekenBevestigscherm.Designer.cs">
+      <DependentUpon>AfrekenBevestigscherm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AfrekenLopendeRekeningenscherm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AfrekenLopendeRekeningenscherm.Designer.cs">
+      <DependentUpon>AfrekenLopendeRekeningenscherm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AfrekenNieuweRekeningscherm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AfrekenNieuweRekeningscherm.Designer.cs">
+      <DependentUpon>AfrekenNieuweRekeningscherm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Barscherm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bestelling.cs" />
+    <Compile Include="BestellingDAO.cs" />
+    <Compile Include="Bestelscherm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bestelscherm.Designer.cs">
+      <DependentUpon>Bestelscherm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Checkscherm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Checkscherm.Designer.cs">
+      <DependentUpon>Checkscherm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListViewStatusSort.cs" />
+    <Compile Include="Menuvoorraad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menuvoorraad.Designer.cs">
+      <DependentUpon>Menuvoorraad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Item.cs" />
+    <Compile Include="ItemDAO.cs" />
+    <Compile Include="Bestellingscherm 1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bestellingscherm 1.Designer.cs">
+      <DependentUpon>Bestellingscherm 1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Keukenscherm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Keukenscherm.Designer.cs">
+      <DependentUpon>Keukenscherm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NieuweRekening.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NieuweRekening.Designer.cs">
+      <DependentUpon>NieuweRekening.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rekening.cs" />
+    <Compile Include="RekeningDAO.cs" />
+    <Compile Include="Rekeningenscherm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rekeningenscherm.Designer.cs">
+      <DependentUpon>Rekeningenscherm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tafelscherm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tafelscherm.Designer.cs">
+      <DependentUpon>Tafelscherm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loginscherm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loginscherm.Designer.cs">
+      <DependentUpon>Loginscherm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menuscherm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menuscherm.Designer.cs">
+      <DependentUpon>Menuscherm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tafel.cs" />
+    <Compile Include="Personeelslid.cs" />
+    <Compile Include="TafelDAO.cs" />
+    <Compile Include="PersoneelslidDAO.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Voorraadkeuze.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Voorraadkeuze.Designer.cs">
+      <DependentUpon>Voorraadkeuze.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Itemvoorraadscherm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Itemvoorraadscherm.Designer.cs">
+      <DependentUpon>Itemvoorraadscherm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AfrekenBetaalscherm.resx">
+      <DependentUpon>AfrekenBetaalscherm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AfrekenBevestigscherm.resx">
+      <DependentUpon>AfrekenBevestigscherm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AfrekenLopendeRekeningenscherm.resx">
+      <DependentUpon>AfrekenLopendeRekeningenscherm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AfrekenNieuweRekeningscherm.resx">
+      <DependentUpon>AfrekenNieuweRekeningscherm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bestellingscherm 1.resx">
+      <DependentUpon>Bestellingscherm 1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bestelscherm.resx">
+      <DependentUpon>Bestelscherm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Checkscherm.resx">
+      <DependentUpon>Checkscherm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menuvoorraad.resx">
+      <DependentUpon>Menuvoorraad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Keukenscherm.resx">
+      <DependentUpon>Keukenscherm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NieuweRekening.resx">
+      <DependentUpon>NieuweRekening.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rekeningenscherm.resx">
+      <DependentUpon>Rekeningenscherm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tafelscherm.resx">
+      <DependentUpon>Tafelscherm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loginscherm.resx">
+      <DependentUpon>Loginscherm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menuscherm.resx">
+      <DependentUpon>Menuscherm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Voorraadkeuze.resx">
+      <DependentUpon>Voorraadkeuze.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Itemvoorraadscherm.resx">
+      <DependentUpon>Itemvoorraadscherm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
