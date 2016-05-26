@@ -13,21 +13,21 @@ namespace MayaMaya_Concept
         public Tafel TafelVanBestelling { get; set; }
         public Personeelslid PersoneelslidVanBestelling { get; set; }
         //public Rekening RekeningVanBestelling { get; set;}
-        public int Rekeningnummer { get; set; }
+        //public int Rekeningnummer { get; set; }
         //public Status StatusVanBestelling { get; set; }
         public string StatusVanBestelling { get; set; }
         public List<Item> ItemsVanBestelling { get; set; }
 
         public Bestelling(int bestelnummer, DateTime datumTijdVanbestellen,
-            Tafel tafelVanBestelling, Personeelslid personeelslidVanBestelling,
-            int rekeningnummer, string statusVanBestelling)
+            Tafel tafelVanBestelling, Personeelslid personeelslidVanBestelling, 
+            string statusVanBestelling)
         {
             Bestelnummer = bestelnummer;
             DatumTijdVanBestellen = datumTijdVanbestellen;
             TafelVanBestelling = tafelVanBestelling;
             PersoneelslidVanBestelling = personeelslidVanBestelling;
             //RekeningVanBestelling = rekeningVanBestelling;
-            Rekeningnummer = rekeningnummer;
+            //Rekeningnummer = rekeningnummer;
             StatusVanBestelling = statusVanBestelling;
         }
 
@@ -38,12 +38,11 @@ namespace MayaMaya_Concept
             string tafelString = Convert.ToString(TafelVanBestelling.tafelNummer);
             string personeelslidString = Convert.ToString(PersoneelslidVanBestelling.Personeelsnummer);
             //string rekeningString = Convert.ToString(RekeningVanBestelling.Rekeningnummer);
-            string rekeningnummerString = Convert.ToString(Rekeningnummer);
+            //string rekeningnummerString = Convert.ToString(Rekeningnummer);
             string statusString = Convert.ToString(StatusVanBestelling);
 
             return bestelnummerString + " " + datumTijdVanBestellingString + " " +
-                tafelString + " " + personeelslidString + " " + rekeningnummerString +
-                " " + statusString;
+                tafelString + " " + personeelslidString + " " + statusString;
         }
     }
 }
