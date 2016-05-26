@@ -43,6 +43,13 @@ namespace MayaMaya_Concept
                     keukenscherm.ShowDialog();
                     this.Show();
                 }
+                else if (personeelslid.TypePersoneelsLid == "bar")
+                {
+                    Barscherm barscherm = new Barscherm(bestellingDAO, itemDAO);
+                    this.Hide();
+                    barscherm.ShowDialog();
+                    this.Show();
+                }
                 else
                 {
                     Menuscherm mainmenu = new Menuscherm(txtPincode.Text, personeelslidDAO, itemDAO, tafelDAO, bestellingDAO);
