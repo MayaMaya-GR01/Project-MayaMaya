@@ -112,7 +112,6 @@ C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concep
 C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Bestelscherm.resources
 C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Checkscherm.resources
 C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Menuvoorraad.resources
-C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Keukenscherm.resources
 C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.NieuweRekening.resources
 C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Rekeningenscherm.resources
 C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Tafelscherm.resources
@@ -122,3 +121,4 @@ C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concep
 C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Voorraadkeuze.resources
 C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Itemvoorraadscherm.resources
 C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya Concept.csproj.GenerateResource.Cache
+C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Bereidingscherm.resources

@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace MayaMaya_Concept
 {
-    public class Barscherm : Keukenscherm
+    public class Barscherm : Bereidingscherm
     {
         
 
         public Barscherm(BestellingDAO bestellingDAO, ItemDAO itemDAO)
             : base(bestellingDAO, itemDAO)
         {
-            lblKeukenTitelTekst.Text = "Barscherm";
+            lblBereidingTitelTekst.Text = "Barscherm";
             base.Text = "Barscherm";
         }
 
