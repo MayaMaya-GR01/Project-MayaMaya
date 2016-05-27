@@ -153,3 +153,6 @@ C:\Users\Yannick Stolker\Desktop\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\Ma
 C:\Users\Yannick Stolker\Desktop\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya Concept.pdb
 =======
 >>>>>>> refs/remotes/origin/master:MayaMaya App met betere querries/MayaMaya Concept/obj/Debug/MayaMaya Concept.csproj.FileListAbsolute.txt
+C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\bin\Debug\MayaMaya Concept.exe.config
+C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya Concept.exe
+C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya Concept.pdb
