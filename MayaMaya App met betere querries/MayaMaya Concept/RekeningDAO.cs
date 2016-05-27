@@ -49,7 +49,7 @@ namespace MayaMaya_Concept
         {
             dbConnection.Open();
 
-            string getDate = "current_timestamp";
+            //string getDate = "current_timestamp";
 
             string sql = "insert into rekening(totaalprijs, bedrag_btw, bedrag_fooi, commentaar, datum) " +
                 "values(@totaalprijs, @bedrag_btw, bedrag_fooi, @commentaar, @datum)";
