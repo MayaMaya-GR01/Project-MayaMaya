@@ -122,3 +122,6 @@ C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concep
 C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Itemvoorraadscherm.resources
 C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya Concept.csproj.GenerateResource.Cache
 C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Bereidingscherm.resources
+C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\bin\Debug\MayaMaya Concept.exe.config
+C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya Concept.exe
+C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya Concept.pdb
