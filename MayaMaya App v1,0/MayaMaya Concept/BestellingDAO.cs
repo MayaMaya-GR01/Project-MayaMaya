@@ -26,8 +26,7 @@ namespace MayaMaya_Concept
 
             // Commando
             SqlCommand command = new SqlCommand(@"SELECT *
-                FROM ((Bestelling INNER JOIN Tafel ON Bestelling.tafelnummer = Tafel.tafelnummer)
-                INNER JOIN Rekening ON Bestelling.rekening = Rekening.rekening_id)
+                FROM (Bestelling INNER JOIN Tafel ON Bestelling.tafelnummer = Tafel.tafelnummer)
                 INNER JOIN Personeelslid ON Bestelling.personeelsnummer = Personeelslid.personeelsnummer
                 ", dbConnection);
             SqlDataReader reader = command.ExecuteReader();
@@ -61,7 +60,7 @@ namespace MayaMaya_Concept
                     personeelsnummer, pincode);
 
                 // Rekening object (alleen nog nummer)
-                int rekeningnummer = (int)reader["rekening"];
+                //int rekeningnummer = (int)reader["rekening"];
 
                 // Tafel object
                 int tafelnummer = (int)reader["tafelnummer"];
@@ -73,7 +72,7 @@ namespace MayaMaya_Concept
                 // Bestelling object en toevoegen aan list
 
                 Bestelling bestelling = new Bestelling(bestelnummer, datumTijd,
-                    tafel, personeelslid, rekeningnummer, status);
+                    tafel, personeelslid, status);
 
                 bestellingen.Add(bestelling);
             }
@@ -144,7 +143,7 @@ namespace MayaMaya_Concept
                 INNER JOIN Item ON Bestaat_uit.item_id = Item.item_id)
                 INNER JOIN Menucategorie ON Item.categorie_id = Menucategorie.categorie_id)
                 INNER JOIN Menukaart ON Menucategorie.menu_id = Menukaart.menu_id
-                WHERE Menukaart.naam = 'Dranken'
+                WHERE Menukaart.naam = 'Drank'
                 ", dbConnection);
             SqlDataReader reader = command.ExecuteReader();
 
@@ -251,7 +250,7 @@ namespace MayaMaya_Concept
 
             // Commando
             SqlCommand command = new SqlCommand(@"SELECT DISTINCT Bestelling.bestelnummer,
-                Bestelling.datum_en_tijd_van_bestellen, Bestelling.rekening, 
+                Bestelling.datum_en_tijd_van_bestellen, 
                 Bestelling.status, Tafel.*, Personeelslid.* 
                 FROM (Bestelling INNER JOIN Tafel ON Bestelling.tafelnummer = 
                 Tafel.tafelnummer) INNER JOIN Personeelslid ON 

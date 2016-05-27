@@ -76,6 +76,9 @@
     <Compile Include="AfrekenNieuweRekeningscherm.Designer.cs">
       <DependentUpon>AfrekenNieuweRekeningscherm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Keukenscherm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Barscherm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,11 +111,11 @@
     <Compile Include="Bestellingscherm 1.Designer.cs">
       <DependentUpon>Bestellingscherm 1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Keukenscherm.cs">
+    <Compile Include="Bereidingscherm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Keukenscherm.Designer.cs">
-      <DependentUpon>Keukenscherm.cs</DependentUpon>
+    <Compile Include="Bereidingscherm.Designer.cs">
+      <DependentUpon>Bereidingscherm.cs</DependentUpon>
     </Compile>
     <Compile Include="NieuweRekening.cs">
       <SubType>Form</SubType>
@@ -188,8 +191,8 @@
     <EmbeddedResource Include="Menuvoorraad.resx">
       <DependentUpon>Menuvoorraad.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Keukenscherm.resx">
-      <DependentUpon>Keukenscherm.cs</DependentUpon>
+    <EmbeddedResource Include="Bereidingscherm.resx">
+      <DependentUpon>Bereidingscherm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NieuweRekening.resx">
       <DependentUpon>NieuweRekening.cs</DependentUpon>

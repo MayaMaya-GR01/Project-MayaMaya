@@ -1,6 +1,6 @@
 ﻿namespace MayaMaya_Concept
 {
-    partial class Keukenscherm
+    partial class Bereidingscherm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Keukenscherm));
-            this.lblKeukenTitelTekst = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Bereidingscherm));
+            this.lblBereidingTitelTekst = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.btnRefresh = new System.Windows.Forms.Button();
             this.btnLogout = new System.Windows.Forms.Button();
@@ -59,19 +59,19 @@
             this.lblStatus = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // lblKeukenTitelTekst
+            // lblBereidingTitelTekst
             // 
-            this.lblKeukenTitelTekst.AutoSize = true;
-            this.lblKeukenTitelTekst.BackColor = System.Drawing.Color.Silver;
-            this.lblKeukenTitelTekst.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblKeukenTitelTekst.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblKeukenTitelTekst.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblKeukenTitelTekst.Location = new System.Drawing.Point(-166, 0);
-            this.lblKeukenTitelTekst.Name = "lblKeukenTitelTekst";
-            this.lblKeukenTitelTekst.Padding = new System.Windows.Forms.Padding(400, 3, 400, 3);
-            this.lblKeukenTitelTekst.Size = new System.Drawing.Size(910, 26);
-            this.lblKeukenTitelTekst.TabIndex = 46;
-            this.lblKeukenTitelTekst.Text = "Keukenscherm";
+            this.lblBereidingTitelTekst.AutoSize = true;
+            this.lblBereidingTitelTekst.BackColor = System.Drawing.Color.Silver;
+            this.lblBereidingTitelTekst.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblBereidingTitelTekst.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lblBereidingTitelTekst.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBereidingTitelTekst.Location = new System.Drawing.Point(-166, 0);
+            this.lblBereidingTitelTekst.Name = "lblBereidingTitelTekst";
+            this.lblBereidingTitelTekst.Padding = new System.Windows.Forms.Padding(400, 3, 400, 3);
+            this.lblBereidingTitelTekst.Size = new System.Drawing.Size(921, 26);
+            this.lblBereidingTitelTekst.TabIndex = 46;
+            this.lblBereidingTitelTekst.Text = "Bereidingscherm";
             // 
             // label5
             // 
@@ -334,7 +334,7 @@
             this.lblStatus.TabIndex = 67;
             this.lblStatus.Text = "-";
             // 
-            // Keukenscherm
+            // Bereidingscherm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -358,9 +358,9 @@
             this.Controls.Add(this.btnRefresh);
             this.Controls.Add(this.btnLogout);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.lblKeukenTitelTekst);
-            this.Name = "Keukenscherm";
-            this.Text = "Keukenscherm";
+            this.Controls.Add(this.lblBereidingTitelTekst);
+            this.Name = "Bereidingscherm";
+            this.Text = "Bereidingscherm";
             this.Load += new System.EventHandler(this.Keukenscherm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -369,7 +369,7 @@
 
         #endregion
 
-        protected System.Windows.Forms.Label lblKeukenTitelTekst;
+        protected System.Windows.Forms.Label lblBereidingTitelTekst;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnRefresh;
         private System.Windows.Forms.Button btnLogout;
