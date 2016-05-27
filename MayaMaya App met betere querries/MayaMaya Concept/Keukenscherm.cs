@@ -23,41 +23,33 @@ namespace MayaMaya_Concept
 
         protected override void ToonLopendeBestellingen()
         {
-            List<Bestelling> bestellingen = bestellingDAO.GetAllKeuken();
+            List<Bestelling> bestellingen = bestellingDAO.GetAllKeukenLopend();
 
             foreach (Bestelling bestelling in bestellingen)
             {
-                if (bestelling.StatusVanBestelling == "in behandeling" ||
-                    bestelling.StatusVanBestelling == "wacht")
-                {
                     ListViewItem listItem = new ListViewItem(bestelling.Bestelnummer.ToString());
                     listItem.SubItems.Add(bestelling.TafelVanBestelling.tafelNummer.ToString());
                     listItem.SubItems.Add(bestelling.DatumTijdVanBestellen.ToString());
                     listItem.SubItems.Add(bestellingDAO.GetAantalItemsInBestelling(bestelling.Bestelnummer).ToString());
-                    //listItem.SubItems.Add(bestelling.ItemsVanBestelling.Count.ToString());
                     listItem.SubItems.Add(bestelling.StatusVanBestelling);
                     lstBestellingen.Items.Add(listItem);
-                }
+                
             }
         }
 
         protected override void ToonGereedgemeldeBestellingen()
         {
-            List<Bestelling> bestellingen = bestellingDAO.GetAllKeuken();
+            List<Bestelling> bestellingen = bestellingDAO.GetAllKeukenGereed();
 
             foreach (Bestelling bestelling in bestellingen)
             {
-                if (bestelling.StatusVanBestelling == "gereed" ||
-                    bestelling.StatusVanBestelling == "afgerond")
-                {
                     ListViewItem listItem = new ListViewItem(bestelling.Bestelnummer.ToString());
                     listItem.SubItems.Add(bestelling.TafelVanBestelling.tafelNummer.ToString());
                     listItem.SubItems.Add(bestelling.DatumTijdVanBestellen.ToString());
                     listItem.SubItems.Add(bestellingDAO.GetAantalItemsInBestelling(bestelling.Bestelnummer).ToString());
-                    //listItem.SubItems.Add(bestelling.ItemsVanBestelling.Count.ToString());
                     listItem.SubItems.Add(bestelling.StatusVanBestelling);
                     lstBestellingen.Items.Add(listItem);
-                }
+                
             }
         }
     }

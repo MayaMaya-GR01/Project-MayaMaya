@@ -19,7 +19,6 @@ namespace MayaMaya_Concept
         public Bereidingscherm(BestellingDAO bestellingDAO, ItemDAO itemDAO)
         {
             InitializeComponent();
-            //this.lstBestellingen.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.lstBestellingen_ColumnClick);
             this.bestellingDAO = bestellingDAO;
             this.itemDAO = itemDAO;
             lopendeBestellingenActief = true;
@@ -40,14 +39,12 @@ namespace MayaMaya_Concept
                 this.lstBestellingen.ListViewItemSorter = new ListViewStatusSort(true);
                 ToonLopendeBestellingen();
                 btnGereed.Enabled = true;
-                btnInBehandeling.Enabled = true;
             }
             else
             {
                 this.lstBestellingen.ListViewItemSorter = new ListViewStatusSort(false);
                 ToonGereedgemeldeBestellingen();
                 btnGereed.Enabled = false;
-                btnInBehandeling.Enabled = false;
             }
         }
 
@@ -64,7 +61,6 @@ namespace MayaMaya_Concept
                     listItem.SubItems.Add(bestelling.TafelVanBestelling.tafelNummer.ToString());
                     listItem.SubItems.Add(bestelling.DatumTijdVanBestellen.ToString());
                     listItem.SubItems.Add(bestellingDAO.GetAantalItemsInBestelling(bestelling.Bestelnummer).ToString());
-                    //listItem.SubItems.Add(bestelling.ItemsVanBestelling.Count.ToString());
                     listItem.SubItems.Add(bestelling.StatusVanBestelling);
                     lstBestellingen.Items.Add(listItem);
                 }
@@ -84,7 +80,6 @@ namespace MayaMaya_Concept
                     listItem.SubItems.Add(bestelling.TafelVanBestelling.tafelNummer.ToString());
                     listItem.SubItems.Add(bestelling.DatumTijdVanBestellen.ToString());
                     listItem.SubItems.Add(bestellingDAO.GetAantalItemsInBestelling(bestelling.Bestelnummer).ToString());
-                    //listItem.SubItems.Add(bestelling.ItemsVanBestelling.Count.ToString());
                     listItem.SubItems.Add(bestelling.StatusVanBestelling);
                     lstBestellingen.Items.Add(listItem);
                 }
@@ -131,7 +126,8 @@ namespace MayaMaya_Concept
             ListView.SelectedListViewItemCollection bestellingen =
                 lstBestellingen.SelectedItems;
 
-            // Bestelnummer uit het ListViewItem halen
+            // Bestelnummer uit het ListViewItem halen.
+            // De foreach loop is nodig omdat het bestelnummer uit een list gehaald moet worden die soms geen items bevat.
             int bestelnummer = 0;
 
             foreach (ListViewItem bestellingListViewItem in bestellingen)
@@ -166,20 +162,6 @@ namespace MayaMaya_Concept
                 lstItems.Items.Add(listviewItem);
             }  
         }
-
-        //private void lstBestellingen_ColumnClick(object sender, EventArgs e)
-        //{
-        //    MessageBox.Show("hoi");
-        //}
-
-        //private void lstBestellingen_ColumnClick(object sender, System.Windows.Forms.ColumnClickEventArgs e)
-        //{
-        //    // Set the ListViewItemSorter property to a new ListViewItemComparer
-        //    // object.
-        //    this.lstBestellingen.ListViewItemSorter = new ListViewItemComparer(e.Column);
-        //    // Call the sort method to manually sort.
-        //    lstBestellingen.Sort();
-        //}
 
         private void btnInBehandeling_Click(object sender, EventArgs e)
         {
@@ -237,6 +219,11 @@ namespace MayaMaya_Concept
             }
             
             UpdateScherm();
+        }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
 

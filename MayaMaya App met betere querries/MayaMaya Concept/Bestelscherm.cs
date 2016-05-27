@@ -16,68 +16,38 @@ namespace MayaMaya_Concept
 {
     public partial class Bestelscherm : Form
     {
-        ItemDAO itemDAO;
+        private ItemDAO ItemDao { get; set; }
+        List<Item> bedsteld = new List<Item>();
 
         public Bestelscherm(ItemDAO itemDAO)
         {
-            this.itemDAO = itemDAO;
+            ItemDao = itemDAO;
             InitializeComponent();
         }
 
         private void Bestelscherm_Load(object sender, EventArgs e)
         {
-            
+            List<Item> producten = new List<Item>();
+            producten = ItemDao.GetAll();
+            foreach (Item i in producten)
+            {
+                lstItems.Items.Add(i);
+            }
+
+            lstItems.SelectedIndex = 0;
         }
 
         private void btnBijvoegen_Click(object sender, EventArgs e)
         {
-
+            Item product = (Item)lstItems.SelectedItem;
+            bedsteld.Add(product);
+            
         }
 
         private void btnCheck_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void lstItems_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnDrank_Click(object sender, EventArgs e)
-        {
-            BestelschermDrank form = new BestelschermDrank(itemDAO);
-            Hide();
+            Checkscherm form = new Checkscherm(bedsteld);
             form.ShowDialog();
-            Show();
-        }
-
-        private void btnTerug_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
-
-        private void btnLunch_Click(object sender, EventArgs e)
-        {
-            BestelschermLunch form = new BestelschermLunch(itemDAO);
-            Hide();
-            form.ShowDialog();
-            Show();
-        }
-
-        private void btnDiner_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

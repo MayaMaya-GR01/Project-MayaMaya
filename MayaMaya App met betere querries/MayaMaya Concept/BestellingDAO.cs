@@ -19,7 +19,7 @@ namespace MayaMaya_Concept
 
         public List<Bestelling> GetAll()
         {
-            List<Bestelling> bestellingen = new List<Bestelling>();
+            
 
             // Open connectie
             dbConnection.Open();
@@ -32,7 +32,7 @@ namespace MayaMaya_Concept
             SqlDataReader reader = command.ExecuteReader();
 
             // Lezen
-            GetAllBestellingenList(bestellingen, reader);
+            List<Bestelling> bestellingen = GetAllBestellingenList(reader);
 
             // Sluit connectie
             dbConnection.Close();
@@ -40,9 +40,10 @@ namespace MayaMaya_Concept
             return bestellingen;
         }
 
-        private void GetAllBestellingenList(List<Bestelling> bestellingen,
-            SqlDataReader reader)
+        private List<Bestelling> GetAllBestellingenList(SqlDataReader reader)
         {
+            List<Bestelling> bestellingen = new List<Bestelling>();
+
             while (reader.Read())
             {
                 int bestelnummer = (int)reader["bestelnummer"];
@@ -76,6 +77,8 @@ namespace MayaMaya_Concept
 
                 bestellingen.Add(bestelling);
             }
+
+            return bestellingen;
         }
 
         public int GetAantalItemsInBestelling(int bestelnummer)
@@ -102,8 +105,6 @@ namespace MayaMaya_Concept
 
         public List<Bestelling> GetAllKeuken()
         {
-            List<Bestelling> bestellingen = new List<Bestelling>();
-
             // Open connectie
             dbConnection.Open();
 
@@ -120,7 +121,61 @@ namespace MayaMaya_Concept
             SqlDataReader reader = command.ExecuteReader();
 
             // Lezen
-            GetAllBestellingenList(bestellingen, reader);
+            List<Bestelling> bestellingen = GetAllBestellingenList(reader);
+
+            // Sluit connectie
+            dbConnection.Close();
+
+            return bestellingen;
+        }
+
+        public List<Bestelling> GetAllKeukenLopend()
+        {
+            // Open connectie
+            dbConnection.Open();
+
+            // Commando
+            SqlCommand command = new SqlCommand(@"SELECT DISTINCT Bestelling.*, Tafel.*, Personeelslid.*
+                FROM (((((Bestelling INNER JOIN Tafel ON Bestelling.tafelnummer = Tafel.tafelnummer)
+                INNER JOIN Personeelslid ON Bestelling.personeelsnummer = Personeelslid.personeelsnummer) 
+                INNER JOIN Bestaat_uit ON Bestelling.bestelnummer = Bestaat_uit.bestelnummer) 
+                INNER JOIN Item ON Bestaat_uit.item_id = Item.item_id)
+                INNER JOIN Menucategorie ON Item.categorie_id = Menucategorie.categorie_id)
+                INNER JOIN Menukaart ON Menucategorie.menu_id = Menukaart.menu_id
+                WHERE (Menukaart.naam = 'Diner' OR Menukaart.naam = 'Lunch') AND 
+                (Bestelling.status = 'wacht' OR Bestelling.status = 'in behandeling') 
+                ", dbConnection);
+            SqlDataReader reader = command.ExecuteReader();
+
+            // Lezen
+            List<Bestelling> bestellingen = GetAllBestellingenList(reader);
+
+            // Sluit connectie
+            dbConnection.Close();
+
+            return bestellingen;
+        }
+
+        public List<Bestelling> GetAllKeukenGereed()
+        {
+            // Open connectie
+            dbConnection.Open();
+
+            // Commando
+            SqlCommand command = new SqlCommand(@"SELECT DISTINCT Bestelling.*, Tafel.*, Personeelslid.*
+                FROM (((((Bestelling INNER JOIN Tafel ON Bestelling.tafelnummer = Tafel.tafelnummer)
+                INNER JOIN Personeelslid ON Bestelling.personeelsnummer = Personeelslid.personeelsnummer) 
+                INNER JOIN Bestaat_uit ON Bestelling.bestelnummer = Bestaat_uit.bestelnummer) 
+                INNER JOIN Item ON Bestaat_uit.item_id = Item.item_id)
+                INNER JOIN Menucategorie ON Item.categorie_id = Menucategorie.categorie_id)
+                INNER JOIN Menukaart ON Menucategorie.menu_id = Menukaart.menu_id
+                WHERE (Menukaart.naam = 'Diner' OR Menukaart.naam = 'Lunch') AND 
+                (Bestelling.status = 'gereed') 
+                ", dbConnection);
+            SqlDataReader reader = command.ExecuteReader();
+
+            // Lezen
+            List<Bestelling> bestellingen = GetAllBestellingenList(reader);
 
             // Sluit connectie
             dbConnection.Close();
@@ -130,8 +185,6 @@ namespace MayaMaya_Concept
 
         public List<Bestelling> GetAllBar()
         {
-            List<Bestelling> bestellingen = new List<Bestelling>();
-
             // Open connectie
             dbConnection.Open();
 
@@ -148,7 +201,61 @@ namespace MayaMaya_Concept
             SqlDataReader reader = command.ExecuteReader();
 
             // Lezen
-            GetAllBestellingenList(bestellingen, reader);
+            List<Bestelling> bestellingen = GetAllBestellingenList(reader);
+
+            // Sluit connectie
+            dbConnection.Close();
+
+            return bestellingen;
+        }
+
+        public List<Bestelling> GetAllBarLopend()
+        {
+            // Open connectie
+            dbConnection.Open();
+
+            // Commando
+            SqlCommand command = new SqlCommand(@"SELECT DISTINCT Bestelling.*, Tafel.*, Personeelslid.*
+                FROM (((((Bestelling INNER JOIN Tafel ON Bestelling.tafelnummer = Tafel.tafelnummer)
+                INNER JOIN Personeelslid ON Bestelling.personeelsnummer = Personeelslid.personeelsnummer) 
+                INNER JOIN Bestaat_uit ON Bestelling.bestelnummer = Bestaat_uit.bestelnummer) 
+                INNER JOIN Item ON Bestaat_uit.item_id = Item.item_id)
+                INNER JOIN Menucategorie ON Item.categorie_id = Menucategorie.categorie_id)
+                INNER JOIN Menukaart ON Menucategorie.menu_id = Menukaart.menu_id
+                WHERE (Menukaart.naam = 'Drank') AND 
+                (Bestelling.status = 'wacht' OR Bestelling.status = 'in behandeling') 
+                ", dbConnection);
+            SqlDataReader reader = command.ExecuteReader();
+
+            // Lezen
+            List<Bestelling> bestellingen = GetAllBestellingenList(reader);
+
+            // Sluit connectie
+            dbConnection.Close();
+
+            return bestellingen;
+        }
+
+        public List<Bestelling> GetAllBarGereed()
+        {
+            // Open connectie
+            dbConnection.Open();
+
+            // Commando
+            SqlCommand command = new SqlCommand(@"SELECT DISTINCT Bestelling.*, Tafel.*, Personeelslid.*
+                FROM (((((Bestelling INNER JOIN Tafel ON Bestelling.tafelnummer = Tafel.tafelnummer)
+                INNER JOIN Personeelslid ON Bestelling.personeelsnummer = Personeelslid.personeelsnummer) 
+                INNER JOIN Bestaat_uit ON Bestelling.bestelnummer = Bestaat_uit.bestelnummer) 
+                INNER JOIN Item ON Bestaat_uit.item_id = Item.item_id)
+                INNER JOIN Menucategorie ON Item.categorie_id = Menucategorie.categorie_id)
+                INNER JOIN Menukaart ON Menucategorie.menu_id = Menukaart.menu_id
+                WHERE (Menukaart.naam = 'Drank') AND 
+                (Bestelling.status = 'gereed') 
+                ", dbConnection);
+            SqlDataReader reader = command.ExecuteReader();
+
+            // Lezen
+            List<Bestelling> bestellingen = GetAllBestellingenList(reader);
 
             // Sluit connectie
             dbConnection.Close();
@@ -243,8 +350,6 @@ namespace MayaMaya_Concept
 
         public Bestelling GetAllEnkeleBestelling(int bestelnummer)
         {
-            List<Bestelling> bestellingen = new List<Bestelling>();
-
             // Open connectie
             dbConnection.Open();
 
@@ -261,7 +366,7 @@ namespace MayaMaya_Concept
             SqlDataReader reader = command.ExecuteReader();
 
             // Lezen
-            GetAllBestellingenList(bestellingen, reader);
+            List<Bestelling> bestellingen = GetAllBestellingenList(reader);
 
             // Sluit connectie
             dbConnection.Close();

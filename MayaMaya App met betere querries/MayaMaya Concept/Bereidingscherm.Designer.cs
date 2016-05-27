@@ -111,9 +111,10 @@
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Size = new System.Drawing.Size(262, 33);
             this.btnLogout.TabIndex = 50;
-            this.btnLogout.Text = "Terug";
+            this.btnLogout.Text = "Uitloggen";
             this.btnLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLogout.UseVisualStyleBackColor = true;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // lstBestellingen
             // 

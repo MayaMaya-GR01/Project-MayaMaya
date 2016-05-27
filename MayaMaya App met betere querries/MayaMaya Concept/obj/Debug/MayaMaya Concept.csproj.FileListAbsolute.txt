@@ -125,6 +125,7 @@ C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concep
 C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\bin\Debug\MayaMaya Concept.exe.config
 C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya Concept.exe
 C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya Concept.pdb
+<<<<<<< HEAD:MayaMaya App met betere querries/MayaMaya Concept/obj/Debug/MayaMaya Concept.csproj.FileListAbsolute.txt
 C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya Concept.csprojResolveAssemblyReference.cache
 C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.AfrekenBetaalscherm.resources
 C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.AfrekenBevestigscherm.resources
@@ -150,3 +151,5 @@ C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App 
 C:\Users\Yannick Stolker\Desktop\MayaMaya App v1,0\MayaMaya Concept\bin\Debug\MayaMaya Concept.exe.config
 C:\Users\Yannick Stolker\Desktop\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya Concept.exe
 C:\Users\Yannick Stolker\Desktop\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya Concept.pdb
+=======
+>>>>>>> refs/remotes/origin/master:MayaMaya App met betere querries/MayaMaya Concept/obj/Debug/MayaMaya Concept.csproj.FileListAbsolute.txt
