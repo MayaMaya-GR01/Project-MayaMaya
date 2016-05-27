@@ -14,12 +14,14 @@ namespace MayaMaya_Concept
     {
         Tafel tafel;
         TafelDAO tafelDAO;
+        ItemDAO itemDAO;
 
-        public Tafelscherm(Tafel tafel, TafelDAO tafeldao)
+        public Tafelscherm(Tafel tafel, TafelDAO tafelDAO, ItemDAO itemDAO)
         {
             InitializeComponent();
             this.tafel = tafel;
-            this.tafelDAO = tafeldao;
+            this.tafelDAO = tafelDAO;
+            this.itemDAO = itemDAO;
         }
 
         private void btnBevestig_Click(object sender, EventArgs e)
@@ -66,7 +68,7 @@ namespace MayaMaya_Concept
 
         private void btnOpnemen_Click(object sender, EventArgs e)
         {
-            Bestelling1 bestellingscherm = new Bestelling1(tafel);
+            Bestelscherm bestellingscherm = new Bestelscherm(itemDAO);
             this.Hide();
             bestellingscherm.ShowDialog();
             this.Show();

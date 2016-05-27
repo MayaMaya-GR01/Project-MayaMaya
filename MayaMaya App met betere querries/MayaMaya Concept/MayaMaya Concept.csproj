@@ -76,6 +76,18 @@
     <Compile Include="AfrekenNieuweRekeningscherm.Designer.cs">
       <DependentUpon>AfrekenNieuweRekeningscherm.cs</DependentUpon>
     </Compile>
+    <Compile Include="BestelschermDrank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BestelschermDrank.Designer.cs">
+      <DependentUpon>BestelschermDrank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BestelschermLunch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BestelschermLunch.Designer.cs">
+      <DependentUpon>BestelschermLunch.cs</DependentUpon>
+    </Compile>
     <Compile Include="Keukenscherm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,12 +117,6 @@
     </Compile>
     <Compile Include="Item.cs" />
     <Compile Include="ItemDAO.cs" />
-    <Compile Include="Bestellingscherm 1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Bestellingscherm 1.Designer.cs">
-      <DependentUpon>Bestellingscherm 1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Bereidingscherm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -179,11 +185,14 @@
     <EmbeddedResource Include="AfrekenNieuweRekeningscherm.resx">
       <DependentUpon>AfrekenNieuweRekeningscherm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Bestellingscherm 1.resx">
-      <DependentUpon>Bestellingscherm 1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Bestelscherm.resx">
       <DependentUpon>Bestelscherm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BestelschermDrank.resx">
+      <DependentUpon>BestelschermDrank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BestelschermLunch.resx">
+      <DependentUpon>BestelschermLunch.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Checkscherm.resx">
       <DependentUpon>Checkscherm.cs</DependentUpon>
