@@ -1,158 +1,24 @@
-c:\users\umeer\documents\visual studio 2013\Projects\MayaMaya Concept\MayaMaya Concept\bin\Debug\MayaMaya Concept.exe.config
-c:\users\umeer\documents\visual studio 2013\Projects\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya Concept.csprojResolveAssemblyReference.cache
-c:\users\umeer\documents\visual studio 2013\Projects\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Properties.Resources.resources
-c:\users\umeer\documents\visual studio 2013\Projects\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya Concept.csproj.GenerateResource.Cache
-c:\users\umeer\documents\visual studio 2013\Projects\MayaMaya Concept\MayaMaya Concept\bin\Debug\MayaMaya Concept.exe
-c:\users\umeer\documents\visual studio 2013\Projects\MayaMaya Concept\MayaMaya Concept\bin\Debug\MayaMaya Concept.pdb
-c:\users\umeer\documents\visual studio 2013\Projects\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya Concept.exe
-c:\users\umeer\documents\visual studio 2013\Projects\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya Concept.pdb
-c:\users\umeer\documents\visual studio 2013\Projects\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.InlogForm.resources
-C:\Users\Umeer\Documents\Visual Studio 2013\Projects\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Itemscherm.resources
-C:\Users\Umeer\Documents\Visual Studio 2013\Projects\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Tafelscherm.resources
-C:\Users\Umeer\Documents\Visual Studio 2013\Projects\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Menuscherm.resources
-C:\Users\Umeer\Documents\Visual Studio 2013\Projects\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Tafelklikscherm.resources
-C:\Users\Umeer\Desktop\MayaMaya Concept\MayaMaya Concept\bin\Debug\MayaMaya Concept.exe.config
-C:\Users\Umeer\Desktop\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya Concept.exe
-C:\Users\Umeer\Desktop\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya Concept.pdb
-C:\Users\Umeer\Desktop\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya Concept.csprojResolveAssemblyReference.cache
-C:\Users\Umeer\Desktop\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.InlogForm.resources
-C:\Users\Umeer\Desktop\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Menuscherm.resources
-C:\Users\Umeer\Desktop\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Properties.Resources.resources
-C:\Users\Umeer\Desktop\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya Concept.csproj.GenerateResource.Cache
-C:\Users\Umeer\Desktop\MayaMaya Concept\MayaMaya Concept\bin\Debug\MayaMaya Concept.exe
-C:\Users\Umeer\Desktop\MayaMaya Concept\MayaMaya Concept\bin\Debug\MayaMaya Concept.pdb
-C:\Users\Umeer\Desktop\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Tafelscherm.resources
-C:\Users\Umeer\Desktop\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Keukenscherm.resources
-C:\Users\Umeer\Desktop\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Bestelling1.resources
-C:\Users\Umeer\Desktop\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Voorraadkeuze.resources
-C:\Users\Umeer\Desktop\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Menuvoorraad.resources
-C:\Users\Umeer\Desktop\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Itemvoorraadscherm.resources
-\\intranet.inholland.nl\Eduhome\haa00\569201\Desktop\Maya Maya\MayaMaya Concept\MayaMaya Concept\bin\Debug\MayaMaya Concept.exe.config
-\\intranet.inholland.nl\Eduhome\haa00\569201\Desktop\Maya Maya\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya Concept.exe
-\\intranet.inholland.nl\Eduhome\haa00\569201\Desktop\Maya Maya\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya Concept.pdb
-\\intranet.inholland.nl\Eduhome\haa00\569201\Desktop\Maya Maya\MayaMaya Concept\MayaMaya Concept\bin\Debug\MayaMaya Concept.exe
-\\intranet.inholland.nl\Eduhome\haa00\569201\Desktop\Maya Maya\MayaMaya Concept\MayaMaya Concept\bin\Debug\MayaMaya Concept.pdb
-\\intranet.inholland.nl\Eduhome\haa00\569201\Desktop\Maya Maya\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Bestelling1.resources
-\\intranet.inholland.nl\Eduhome\haa00\569201\Desktop\Maya Maya\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Menuvoorraad.resources
-\\intranet.inholland.nl\Eduhome\haa00\569201\Desktop\Maya Maya\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Keukenscherm.resources
-\\intranet.inholland.nl\Eduhome\haa00\569201\Desktop\Maya Maya\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Tafelscherm.resources
-\\intranet.inholland.nl\Eduhome\haa00\569201\Desktop\Maya Maya\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.InlogForm.resources
-\\intranet.inholland.nl\Eduhome\haa00\569201\Desktop\Maya Maya\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Menuscherm.resources
-\\intranet.inholland.nl\Eduhome\haa00\569201\Desktop\Maya Maya\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Properties.Resources.resources
-\\intranet.inholland.nl\Eduhome\haa00\569201\Desktop\Maya Maya\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Voorraadkeuze.resources
-\\intranet.inholland.nl\Eduhome\haa00\569201\Desktop\Maya Maya\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Itemvoorraadscherm.resources
-\\intranet.inholland.nl\Eduhome\haa00\569201\Desktop\Maya Maya\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya Concept.csproj.GenerateResource.Cache
-\\intranet.inholland.nl\Eduhome\haa00\569201\Desktop\Maya Maya\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.AfrekenBetaalscherm.resources
-\\intranet.inholland.nl\Eduhome\haa00\569201\Desktop\Maya Maya\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.AfrekenBevestigscherm.resources
-\\intranet.inholland.nl\Eduhome\haa00\569201\Desktop\Maya Maya\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.AfrekenLopendeRekeningenscherm.resources
-\\intranet.inholland.nl\Eduhome\haa00\569201\Desktop\Maya Maya\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.AfrekenNieuweRekeningscherm.resources
-\\intranet.inholland.nl\Eduhome\haa00\569201\Desktop\Maya Maya\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Bestelscherm.resources
-\\intranet.inholland.nl\Eduhome\haa00\569201\Desktop\Maya Maya\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Checkscherm.resources
-\\intranet.inholland.nl\Eduhome\haa00\569201\Desktop\Maya Maya\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.NieuweRekening.resources
-\\intranet.inholland.nl\Eduhome\haa00\569201\Desktop\Maya Maya\MayaMaya Concept\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Rekeningenscherm.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,8\MayaMaya Concept\bin\Debug\MayaMaya Concept.exe.config
-C:\Users\gebruiker\Desktop\MayaMaya App v0,8\MayaMaya Concept\obj\Debug\MayaMaya Concept.exe
-C:\Users\gebruiker\Desktop\MayaMaya App v0,8\MayaMaya Concept\obj\Debug\MayaMaya Concept.pdb
-C:\Users\gebruiker\Desktop\MayaMaya App v0,8\MayaMaya Concept\bin\Debug\MayaMaya Concept.exe
-C:\Users\gebruiker\Desktop\MayaMaya App v0,8\MayaMaya Concept\bin\Debug\MayaMaya Concept.pdb
-C:\Users\gebruiker\Desktop\MayaMaya App v0,8\MayaMaya Concept\obj\Debug\MayaMaya Concept.csprojResolveAssemblyReference.cache
-C:\Users\gebruiker\Desktop\MayaMaya App v0,8\MayaMaya Concept\obj\Debug\MayaMaya_Concept.AfrekenBetaalscherm.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,8\MayaMaya Concept\obj\Debug\MayaMaya_Concept.AfrekenBevestigscherm.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,8\MayaMaya Concept\obj\Debug\MayaMaya_Concept.AfrekenLopendeRekeningenscherm.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,8\MayaMaya Concept\obj\Debug\MayaMaya_Concept.AfrekenNieuweRekeningscherm.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,8\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Bestelling1.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,8\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Bestelscherm.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,8\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Checkscherm.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,8\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Menuvoorraad.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,8\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Keukenscherm.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,8\MayaMaya Concept\obj\Debug\MayaMaya_Concept.NieuweRekening.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,8\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Rekeningenscherm.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,8\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Tafelscherm.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,8\MayaMaya Concept\obj\Debug\MayaMaya_Concept.InlogForm.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,8\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Menuscherm.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,8\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Properties.Resources.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,8\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Voorraadkeuze.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,8\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Itemvoorraadscherm.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,8\MayaMaya Concept\obj\Debug\MayaMaya Concept.csproj.GenerateResource.Cache
-C:\Users\gebruiker\Desktop\MayaMaya App v0,9\MayaMaya Concept\bin\Debug\MayaMaya Concept.exe.config
-C:\Users\gebruiker\Desktop\MayaMaya App v0,9\MayaMaya Concept\obj\Debug\MayaMaya Concept.exe
-C:\Users\gebruiker\Desktop\MayaMaya App v0,9\MayaMaya Concept\obj\Debug\MayaMaya Concept.pdb
-C:\Users\gebruiker\Desktop\MayaMaya App v0,9\MayaMaya Concept\bin\Debug\MayaMaya Concept.exe
-C:\Users\gebruiker\Desktop\MayaMaya App v0,9\MayaMaya Concept\bin\Debug\MayaMaya Concept.pdb
-C:\Users\gebruiker\Desktop\MayaMaya App v0,9\MayaMaya Concept\obj\Debug\MayaMaya Concept.csprojResolveAssemblyReference.cache
-C:\Users\gebruiker\Desktop\MayaMaya App v0,9\MayaMaya Concept\obj\Debug\MayaMaya_Concept.AfrekenLopendeRekeningenscherm.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,9\MayaMaya Concept\obj\Debug\MayaMaya_Concept.AfrekenNieuweRekeningscherm.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,9\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Bestelling1.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,9\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Bestelscherm.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,9\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Checkscherm.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,9\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Menuvoorraad.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,9\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Keukenscherm.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,9\MayaMaya Concept\obj\Debug\MayaMaya_Concept.NieuweRekening.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,9\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Rekeningenscherm.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,9\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Tafelscherm.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,9\MayaMaya Concept\obj\Debug\MayaMaya_Concept.InlogForm.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,9\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Menuscherm.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,9\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Properties.Resources.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,9\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Voorraadkeuze.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,9\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Itemvoorraadscherm.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,9\MayaMaya Concept\obj\Debug\MayaMaya Concept.csproj.GenerateResource.Cache
-C:\Users\gebruiker\Desktop\MayaMaya App v0,9\MayaMaya Concept\obj\Debug\MayaMaya_Concept.AfrekenBetaalscherm.resources
-C:\Users\gebruiker\Desktop\MayaMaya App v0,9\MayaMaya Concept\obj\Debug\MayaMaya_Concept.AfrekenBevestigscherm.resources
-C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\bin\Debug\MayaMaya Concept.exe.config
-C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya Concept.exe
-C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya Concept.pdb
-C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\bin\Debug\MayaMaya Concept.exe
-C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\bin\Debug\MayaMaya Concept.pdb
-C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya Concept.csprojResolveAssemblyReference.cache
-C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.AfrekenBetaalscherm.resources
-C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.AfrekenBevestigscherm.resources
-C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.AfrekenLopendeRekeningenscherm.resources
-C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.AfrekenNieuweRekeningscherm.resources
-C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Bestelling1.resources
-C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Bestelscherm.resources
-C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Checkscherm.resources
-C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Menuvoorraad.resources
-C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.NieuweRekening.resources
-C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Rekeningenscherm.resources
-C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Tafelscherm.resources
-C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.InlogForm.resources
-C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Menuscherm.resources
-C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Properties.Resources.resources
-C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Voorraadkeuze.resources
-C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Itemvoorraadscherm.resources
-C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya Concept.csproj.GenerateResource.Cache
-C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Bereidingscherm.resources
-C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\bin\Debug\MayaMaya Concept.exe.config
-C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya Concept.exe
-C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya Concept.pdb
-<<<<<<< HEAD:MayaMaya App met betere querries/MayaMaya Concept/obj/Debug/MayaMaya Concept.csproj.FileListAbsolute.txt
-C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya Concept.csprojResolveAssemblyReference.cache
-C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.AfrekenBetaalscherm.resources
-C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.AfrekenBevestigscherm.resources
-C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.AfrekenLopendeRekeningenscherm.resources
-C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.AfrekenNieuweRekeningscherm.resources
-C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Bestelscherm.resources
-C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Checkscherm.resources
-C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Menuvoorraad.resources
-C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Bereidingscherm.resources
-C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.NieuweRekening.resources
-C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Rekeningenscherm.resources
-C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Tafelscherm.resources
-C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.InlogForm.resources
-C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Menuscherm.resources
-C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Properties.Resources.resources
-C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Voorraadkeuze.resources
-C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Itemvoorraadscherm.resources
-C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya Concept.csproj.GenerateResource.Cache
-C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\bin\Debug\MayaMaya Concept.exe
-C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\bin\Debug\MayaMaya Concept.pdb
-C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.BestelschermDrank.resources
-C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya_Concept.BestelschermLunch.resources
-C:\Users\Yannick Stolker\Desktop\MayaMaya App v1,0\MayaMaya Concept\bin\Debug\MayaMaya Concept.exe.config
-C:\Users\Yannick Stolker\Desktop\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya Concept.exe
-C:\Users\Yannick Stolker\Desktop\MayaMaya App v1,0\MayaMaya Concept\obj\Debug\MayaMaya Concept.pdb
-=======
->>>>>>> refs/remotes/origin/master:MayaMaya App met betere querries/MayaMaya Concept/obj/Debug/MayaMaya Concept.csproj.FileListAbsolute.txt
 C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\bin\Debug\MayaMaya Concept.exe.config
+C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\bin\Debug\MayaMaya Concept.exe
+C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\bin\Debug\MayaMaya Concept.pdb
+C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.AfrekenBetaalscherm.resources
+C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.AfrekenBevestigscherm.resources
+C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.AfrekenLopendeRekeningenscherm.resources
+C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.AfrekenNieuweRekeningscherm.resources
+C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Bereidingscherm.resources
+C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Bestelscherm.resources
+C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.BestelschermDrank.resources
+C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.BestelschermLunch.resources
+C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Checkscherm.resources
+C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Menuvoorraad.resources
+C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.NieuweRekening.resources
+C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Rekeningenscherm.resources
+C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Tafelscherm.resources
+C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.InlogForm.resources
+C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Menuscherm.resources
+C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Properties.Resources.resources
+C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Voorraadkeuze.resources
+C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Itemvoorraadscherm.resources
+C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya Concept.csproj.GenerateResource.Cache
 C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya Concept.exe
 C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya Concept.pdb
