@@ -88,6 +88,12 @@
     <Compile Include="Bestelscherm.Designer.cs">
       <DependentUpon>Bestelscherm.cs</DependentUpon>
     </Compile>
+    <Compile Include="BestelschermDiner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BestelschermDiner.Designer.cs">
+      <DependentUpon>BestelschermDiner.cs</DependentUpon>
+    </Compile>
     <Compile Include="BestelschermDrank.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +106,7 @@
     <Compile Include="BestelschermLunch.Designer.cs">
       <DependentUpon>BestelschermLunch.cs</DependentUpon>
     </Compile>
+    <Compile Include="Categorie.cs" />
     <Compile Include="Keukenscherm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,6 +136,13 @@
     <Compile Include="NieuweRekening.Designer.cs">
       <DependentUpon>NieuweRekening.cs</DependentUpon>
     </Compile>
+    <Compile Include="Opneemscherm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opneemscherm.Designer.cs">
+      <DependentUpon>Opneemscherm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Opnemen.cs" />
     <Compile Include="Rekening.cs" />
     <Compile Include="RekeningDAO.cs" />
     <Compile Include="Rekeningenscherm.cs">
@@ -191,6 +205,9 @@
     <EmbeddedResource Include="Bestelscherm.resx">
       <DependentUpon>Bestelscherm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="BestelschermDiner.resx">
+      <DependentUpon>BestelschermDiner.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BestelschermDrank.resx">
       <DependentUpon>BestelschermDrank.cs</DependentUpon>
     </EmbeddedResource>
@@ -205,6 +222,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NieuweRekening.resx">
       <DependentUpon>NieuweRekening.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opneemscherm.resx">
+      <DependentUpon>Opneemscherm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Rekeningenscherm.resx">
       <DependentUpon>Rekeningenscherm.cs</DependentUpon>

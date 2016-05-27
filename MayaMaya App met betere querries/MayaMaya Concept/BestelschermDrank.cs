@@ -29,5 +29,38 @@ namespace MayaMaya_Concept
         {
             Close();
         }
+
+        private void MaakOpneemscherm(Categorie categorie)
+        {
+            Opneemscherm form = new Opneemscherm(itemDAO, categorie);
+            Hide();
+            form.ShowDialog();
+            Show();
+        }
+
+        private void btnFrisdrank_Click(object sender, EventArgs e)
+        {
+            MaakOpneemscherm(Categorie.Frisdrank);
+        }
+
+        private void btnBier_Click(object sender, EventArgs e)
+        {
+            MaakOpneemscherm(Categorie.Bier);
+        }
+
+        private void btnWijn_Click(object sender, EventArgs e)
+        {
+            MaakOpneemscherm(Categorie.Wijn);
+        }
+
+        private void btnGedest_Click(object sender, EventArgs e)
+        {
+            MaakOpneemscherm(Categorie.Gedest);
+        }
+
+        private void btnKot_Click(object sender, EventArgs e)
+        {
+            MaakOpneemscherm(Categorie.Koffiethee);
+        }
     }
 }

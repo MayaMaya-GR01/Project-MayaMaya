@@ -22,3 +22,6 @@ C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App 
 C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya Concept.csproj.GenerateResource.Cache
 C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya Concept.exe
 C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya Concept.pdb
+C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya Concept.csprojResolveAssemblyReference.cache
+C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.BestelschermDiner.resources
+C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Opneemscherm.resources
