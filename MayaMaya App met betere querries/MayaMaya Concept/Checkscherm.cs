@@ -12,35 +12,45 @@ namespace MayaMaya_Concept
 {
     public partial class Checkscherm : Form
     {
-        List<Item> producten;
+        List<Item> bestelling;
 
-        public Checkscherm(List<Item> producten)
+        public Checkscherm(List<Item> bestelling)
         {
-            this.producten = producten;
+            this.bestelling = bestelling;
             InitializeComponent();
         }
 
         private void btnCheckscherm_Click(object sender, EventArgs e)
         {
+
             Close();
         }
 
         private void Checkscherm_Load(object sender, EventArgs e)
         {
-            if(producten != null)
+            try
             {
-                foreach(Item i in producten)
+                if (bestelling != null)
                 {
-                    lstbxCheckbestelling.Items.Add(i);
+                    foreach (Item i in bestelling)
+                    {
+                        lstbxCheckbestelling.Items.Add(i);
+                    }
+                    lstbxCheckbestelling.SelectedIndex = 0;
                 }
-                lstbxCheckbestelling.SelectedIndex = 0;
             }
+            catch { }
         }
 
         private void btnVerwijder_Click(object sender, EventArgs e)
         {
             lstbxCheckbestelling.Items.Remove(lstbxCheckbestelling.SelectedItem);
             
+        }
+
+        private void btnTerug_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

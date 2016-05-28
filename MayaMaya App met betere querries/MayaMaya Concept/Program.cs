@@ -25,6 +25,7 @@ namespace MayaMaya_Concept
             TafelDAO tafelDAO = new TafelDAO(dbConnection);
             BestellingDAO bestellingDAO = new BestellingDAO(dbConnection);
             Application.Run(new InlogForm(personeelslidDAO, itemDAO, tafelDAO, bestellingDAO));
+            //Application.Run(new Opneemscherm(itemDAO, Categorie.Bier));
         }
     }
 }

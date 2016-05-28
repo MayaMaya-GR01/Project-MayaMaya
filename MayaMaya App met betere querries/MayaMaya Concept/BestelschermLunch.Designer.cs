@@ -39,30 +39,33 @@
             // 
             // btnNa
             // 
-            this.btnNa.Location = new System.Drawing.Point(49, 298);
+            this.btnNa.Location = new System.Drawing.Point(50, 242);
             this.btnNa.Name = "btnNa";
             this.btnNa.Size = new System.Drawing.Size(189, 56);
             this.btnNa.TabIndex = 48;
             this.btnNa.Text = "Nagerechten";
             this.btnNa.UseVisualStyleBackColor = true;
+            this.btnNa.Click += new System.EventHandler(this.btnNa_Click);
             // 
             // btnHoofd
             // 
-            this.btnHoofd.Location = new System.Drawing.Point(49, 218);
+            this.btnHoofd.Location = new System.Drawing.Point(50, 180);
             this.btnHoofd.Name = "btnHoofd";
             this.btnHoofd.Size = new System.Drawing.Size(189, 56);
             this.btnHoofd.TabIndex = 47;
             this.btnHoofd.Text = "Hoofdgerechten";
             this.btnHoofd.UseVisualStyleBackColor = true;
+            this.btnHoofd.Click += new System.EventHandler(this.btnHoofd_Click);
             // 
             // btnVoor
             // 
-            this.btnVoor.Location = new System.Drawing.Point(49, 138);
+            this.btnVoor.Location = new System.Drawing.Point(50, 118);
             this.btnVoor.Name = "btnVoor";
             this.btnVoor.Size = new System.Drawing.Size(189, 56);
             this.btnVoor.TabIndex = 46;
             this.btnVoor.Text = "Voorgerechten";
             this.btnVoor.UseVisualStyleBackColor = true;
+            this.btnVoor.Click += new System.EventHandler(this.btnVoor_Click);
             // 
             // label5
             // 

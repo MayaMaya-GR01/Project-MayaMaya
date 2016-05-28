@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace MayaMaya_Concept
 {
-    public partial class BestelschermLunch : Form
+    public partial class BestelschermDiner : Form
     {
         ItemDAO itemDAO;
 
-        public BestelschermLunch(ItemDAO itemDAO)
+        public BestelschermDiner(ItemDAO itemDAO)
         {
             this.itemDAO = itemDAO;
             InitializeComponent();
-        }
-
-        private void btnTerug_Click(object sender, EventArgs e)
-        {
-            Close();
         }
 
         private void MaakOpneemscherm(Categorie categorie)
@@ -35,17 +30,22 @@ namespace MayaMaya_Concept
 
         private void btnVoor_Click(object sender, EventArgs e)
         {
-            MaakOpneemscherm(Categorie.VoorL);
+            MaakOpneemscherm(Categorie.VoorD);
+        }
+
+        private void btnTussen_Click(object sender, EventArgs e)
+        {
+            MaakOpneemscherm(Categorie.TussenD);
         }
 
         private void btnHoofd_Click(object sender, EventArgs e)
         {
-            MaakOpneemscherm(Categorie.HoofdL);
+            MaakOpneemscherm(Categorie.HoofdD);
         }
 
         private void btnNa_Click(object sender, EventArgs e)
         {
-            MaakOpneemscherm(Categorie.NaL);
+            MaakOpneemscherm(Categorie.NaD);
         }
     }
 }
