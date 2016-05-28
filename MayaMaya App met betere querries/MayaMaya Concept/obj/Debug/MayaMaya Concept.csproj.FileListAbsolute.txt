@@ -22,6 +22,34 @@ C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App 
 C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya Concept.csproj.GenerateResource.Cache
 C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya Concept.exe
 C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya Concept.pdb
+<<<<<<< HEAD
+C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\bin\Debug\MayaMaya Concept.exe.config
+C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya Concept.exe
+C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya Concept.pdb
+C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\bin\Debug\MayaMaya Concept.exe
+C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\bin\Debug\MayaMaya Concept.pdb
+C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya Concept.csprojResolveAssemblyReference.cache
+C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.AfrekenBetaalscherm.resources
+C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.AfrekenBevestigscherm.resources
+C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.AfrekenLopendeRekeningenscherm.resources
+C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.AfrekenNieuweRekeningscherm.resources
+C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Bereidingscherm.resources
+C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Bestelscherm.resources
+C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.BestelschermDrank.resources
+C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.BestelschermLunch.resources
+C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Checkscherm.resources
+C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Menuvoorraad.resources
+C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.NieuweRekening.resources
+C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Rekeningenscherm.resources
+C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Tafelscherm.resources
+C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.InlogForm.resources
+C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Menuscherm.resources
+C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Properties.Resources.resources
+C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Voorraadkeuze.resources
+C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Itemvoorraadscherm.resources
+C:\Users\Tom\Documents\GitHub\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya Concept.csproj.GenerateResource.Cache
+=======
 C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya Concept.csprojResolveAssemblyReference.cache
 C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.BestelschermDiner.resources
 C:\Users\Yannick Stolker\Desktop\Project-MayaMaya\Project-MayaMaya\MayaMaya App met betere querries\MayaMaya Concept\obj\Debug\MayaMaya_Concept.Opneemscherm.resources
+>>>>>>> refs/remotes/origin/master
