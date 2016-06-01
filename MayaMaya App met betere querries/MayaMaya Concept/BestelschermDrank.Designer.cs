@@ -37,6 +37,7 @@
             this.btnGedest = new System.Windows.Forms.Button();
             this.btnWijn = new System.Windows.Forms.Button();
             this.btnKot = new System.Windows.Forms.Button();
+            this.lblPersoneel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label5
@@ -130,11 +131,21 @@
             this.btnKot.UseVisualStyleBackColor = true;
             this.btnKot.Click += new System.EventHandler(this.btnKot_Click);
             // 
+            // lblPersoneel
+            // 
+            this.lblPersoneel.AutoSize = true;
+            this.lblPersoneel.Location = new System.Drawing.Point(12, 77);
+            this.lblPersoneel.Name = "lblPersoneel";
+            this.lblPersoneel.Size = new System.Drawing.Size(35, 13);
+            this.lblPersoneel.TabIndex = 49;
+            this.lblPersoneel.Text = "label1";
+            // 
             // BestelschermDrank
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(289, 482);
+            this.Controls.Add(this.lblPersoneel);
             this.Controls.Add(this.btnKot);
             this.Controls.Add(this.btnGedest);
             this.Controls.Add(this.btnWijn);
@@ -144,6 +155,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnTerug);
             this.Name = "BestelschermDrank";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "BestelschermDrank";
             this.Load += new System.EventHandler(this.BestelschermDrank_Load);
             this.ResumeLayout(false);
@@ -161,5 +173,6 @@
         private System.Windows.Forms.Button btnGedest;
         private System.Windows.Forms.Button btnWijn;
         private System.Windows.Forms.Button btnKot;
+        private System.Windows.Forms.Label lblPersoneel;
     }
 }

@@ -272,7 +272,10 @@ namespace MayaMaya_Concept
             dbConnection.Open();
 
             // Commando
-            string query = String.Format("SELECT status FROM Tafel INNER JOIN Bestelling on Tafel.tafelnummer = Bestelling.tafelnummer WHERE Tafel.tafelnummer={0}", tafel.tafelNummer);
+            string query = String.Format(@"SELECT status FROM Tafel 
+                INNER JOIN Bestelling on Tafel.tafelnummer = Bestelling.tafelnummer 
+                WHERE Tafel.tafelnummer={0}", tafel.tafelNummer);
+
             SqlCommand command = new SqlCommand(query, dbConnection);
             SqlDataReader reader = command.ExecuteReader();
 
@@ -393,6 +396,78 @@ namespace MayaMaya_Concept
 
             // Sluit connectie
             dbConnection.Close();
+        }
+
+        public void VoegToe(Bestelling bestelling, List<Item> itemsVanBestelling)
+        {
+
+            //Voegt de bestelling toe aan de tabel bestelling.
+            VoegBestellingToe(bestelling);
+
+
+            //Voegt alle items van de bestelling toe aan de tabel bestaat_uit.
+            //Het hoogste bestelnummer wordt meegegeven omdat het hoogste bestelnummer
+            // het nummer is van de bestelling die hierboven is toegevoegd.
+            VoegItemsToe(GeefHoogsteBestelNummer(), itemsVanBestelling);
+
+        }
+
+        private void VoegBestellingToe(Bestelling bestelling)
+        {
+            dbConnection.Open();
+            //De SQL-statement voegt een object van het type Bestelling toe aan de tabel bestelling.
+            SqlCommand command = new SqlCommand(
+                @"INSERT INTO bestelling (datum_en_tijd_van_bestellen, status, tafelnummer, personeelsnummer)
+                VALUES (@datum, @status, @tafel, @persnmr);", dbConnection);
+            command.Parameters.AddWithValue("@datum", bestelling.DatumTijdVanBestellen.ToString("yyyy-MM-dd HH:mm:ss"));
+            command.Parameters.AddWithValue("@status", bestelling.StatusVanBestelling);
+            command.Parameters.AddWithValue("@tafel", bestelling.TafelVanBestelling.tafelNummer);
+            command.Parameters.AddWithValue("@persnmr", bestelling.PersoneelslidVanBestelling.Personeelsnummer);
+
+            command.ExecuteNonQuery();
+
+            dbConnection.Close();
+        }
+
+        private void VoegItemsToe(int bestelnmr, List<Item> items)
+        {
+            dbConnection.Open();
+
+            SqlCommand command;
+
+            //De foreach-loop gaat alle items langs van een bestelling
+            foreach (Item i in items)
+            {
+                //De SQL-statement voegt een rij toe aan de tabel bestaat_uit 
+                // met de waardes van een item uit een bestelling.
+                command = new SqlCommand(
+                    @"INSERT INTO bestaat_uit (bestelnummer, item_id, aantal)
+                    VALUES (@bestelnmr, @item_id, @aantal);", dbConnection);
+                command.Parameters.AddWithValue("@bestelnmr", bestelnmr);
+                command.Parameters.AddWithValue("@item_id", i.ItemId);
+                command.Parameters.AddWithValue("@aantal", i.Aantal);
+
+                command.ExecuteNonQuery();
+
+            }
+                dbConnection.Close();
+        }
+
+        private int GeefHoogsteBestelNummer()
+        {
+            //Deze methode gaat alle bestellingen uit de tabel bestelling langs
+            // en geeft de hoogste waarde terug.
+
+            int id = 0;
+
+            List<Bestelling> bestellingen = GetAll();
+            foreach(Bestelling b in bestellingen)
+            {
+                if (id < b.Bestelnummer)
+                    id = b.Bestelnummer;
+            }
+
+            return id;
         }
     }
 }
