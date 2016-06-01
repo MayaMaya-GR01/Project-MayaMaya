@@ -93,8 +93,6 @@ namespace MayaMaya_Concept
 
         private void btnBestellingen_Click(object sender, EventArgs e)
         {
-            if (!lopendeBestellingenActief) LeegItemList();
-
             lopendeBestellingenActief = true;
             UpdateScherm();
             btnGereedBestellingen.BackColor = DefaultBackColor;
@@ -103,8 +101,6 @@ namespace MayaMaya_Concept
 
         private void btnGereedBestellingen_Click(object sender, EventArgs e)
         {
-            if (lopendeBestellingenActief) LeegItemList();
-
             lopendeBestellingenActief = false;
             UpdateScherm();
             btnLopendeBestellingen.BackColor = DefaultBackColor;
@@ -140,8 +136,7 @@ namespace MayaMaya_Concept
             }
 
             // Labels met bestelinformatie vullen. 
-            // Try catch is noodzakelijk omdat bestelnummer bij deselectie 0 kan worden en 
-            // dit mag niet ingevoerd worden.
+            // Try catch is noodzakelijk omdat bestelnummer tijdelijk 0 kan worden en dit mag niet ingevoerd worden.
             try
             {
                 Bestelling bestelling = bestellingDAO.GetAllEnkeleBestelling(bestelnummer);
@@ -151,11 +146,7 @@ namespace MayaMaya_Concept
                 lblStatus.Text = bestelling.StatusVanBestelling;
                 lblTijdVanBestellen.Text = bestelling.DatumTijdVanBestellen.ToString();
             }
-            catch 
-            {
-                // Bij deselectie wordt de ListView van de items geleegd.
-                LeegItemList();
-            }
+            catch { }
             
             
             // De lijst met items vullen
@@ -186,63 +177,46 @@ namespace MayaMaya_Concept
                 bestelnummer = int.Parse(bestellingListViewItem.SubItems[0].Text);
             }
 
-            // Een afgeronde bestelling mag niet terug naar 'in behandeling'
-            if (bestellingDAO.GetStatusBestelling(bestelnummer) != "afgerond")
-            {
-                bestellingDAO.UpdateBestellingInBehandeling(bestelnummer);
-            }
-
-            // ListView van de items legen als de bestelling verplaatst wordt naar lopende bestellingen.
-            if (!lopendeBestellingenActief) LeegItemList();
-
-            // Als een bestelling van 'wacht' gaat naar 'in behandeling', 
-            // moet het label boven de ViewList van items ook naar 'in behandeling'.
-            if (lopendeBestellingenActief) lblStatus.Text = "in behandeling"; 
-
+            bestellingDAO.UpdateBestellingInBehandeling(bestelnummer);
             UpdateScherm();
         }
 
         private void btnGereed_Click(object sender, EventArgs e)
         {
+            // Geselecteerde bestelling ophalen (in de vorm van een ListViewItem)
+            ListView.SelectedListViewItemCollection bestellingen =
+                lstBestellingen.SelectedItems;
+
             // Bestelnummer uit het ListViewItem halen
             int bestelnummer = 0;
 
-            foreach (ListViewItem bestellingListViewItem in lstBestellingen.SelectedItems)
+            foreach (ListViewItem bestellingListViewItem in bestellingen)
             {
                 bestelnummer = int.Parse(bestellingListViewItem.SubItems[0].Text);
             }
 
             bestellingDAO.UpdateBestellingGereed(bestelnummer);
-
-            // ListView van de items legen als de bestelling verplaatst wordt naar gereed gemelde bestellingen.
-            if (lopendeBestellingenActief) LeegItemList();
-
             UpdateScherm();
         }
 
         private void btnWacht_Click(object sender, EventArgs e)
         {
-            // Bestelnummer uit het ListViewItem halen.
-            // De foreach loop is nodig omdat ListView altijd een list teruggeeft.
+            // Geselecteerde bestelling ophalen (in de vorm van een ListViewItem)
+            ListView.SelectedListViewItemCollection bestellingen =
+                lstBestellingen.SelectedItems;
+
+            // Bestelnummer uit het ListViewItem halen
             int bestelnummer = 0;
 
-            foreach (ListViewItem bestellingListViewItem in lstBestellingen.SelectedItems)
+            foreach (ListViewItem bestellingListViewItem in bestellingen)
             {
                 bestelnummer = int.Parse(bestellingListViewItem.SubItems[0].Text);
             }
 
-            // Een afgeronde bestelling mag niet terug naar 'wacht'
             if (bestellingDAO.GetStatusBestelling(bestelnummer) != "afgerond")
             {
                 bestellingDAO.UpdateBestellingWacht(bestelnummer);
             }
-
-            // ListView van de items legen als de bestelling verplaatst wordt naar lopende bestellingen.
-            if (!lopendeBestellingenActief) LeegItemList();
-
-            // Als een bestelling van 'in behandeling' terug gaat naar 'wacht', 
-            // moet het label boven de ViewList van items ook weer naar 'wacht'.
-            if (lopendeBestellingenActief) lblStatus.Text = "wacht"; 
             
             UpdateScherm();
         }
@@ -252,14 +226,6 @@ namespace MayaMaya_Concept
             this.Close();
         }
 
-        private void LeegItemList()
-        {
-            lblBestellingnummer.Text = "-";
-            lblTafelnummer.Text = "-";
-            lblStatus.Text = "-";
-            lblTijdVanBestellen.Text = "-";
 
-            lstItems.Items.Clear();
-        }
     }
 }
