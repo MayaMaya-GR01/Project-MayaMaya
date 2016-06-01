@@ -12,28 +12,26 @@ namespace MayaMaya_Concept
 {
     public partial class Opneemscherm : Form
     {
+        Bestelling bestelling;
+        Personeelslid personeelslid;
         ItemDAO itemDAO;
+        BestellingDAO bestellingDAO;
         Categorie categorie;
         List<Item> alleItems;
         List<Item> selectieItems = new List<Item>();
-        List<Item> bestelling;
+        public List<Item> itemsVanBestelling;
+        Checkscherm form;
 
-        public Opneemscherm(ItemDAO itemDAO, Categorie categorie)
+        public Opneemscherm(ItemDAO itemDAO, Categorie categorie, List<Item> itemsVanBestelling,
+            Bestelling bestelling, Personeelslid personeelslid, BestellingDAO bestellingDAO)
         {
-            this.itemDAO = itemDAO;
-            this.categorie = categorie;
-            alleItems = itemDAO.GetAll();
-            bestelling = new List<Item>();
-            VulSelectieItems();
-            InitializeComponent();
-        }
-
-        public Opneemscherm(ItemDAO itemDAO, Categorie categorie, List<Item> bestelling)
-        {
-            this.itemDAO = itemDAO;
-            this.categorie = categorie;
-            alleItems = itemDAO.GetAll();
+            this.bestellingDAO = bestellingDAO;
             this.bestelling = bestelling;
+            this.personeelslid = personeelslid;
+            this.itemDAO = itemDAO;
+            this.categorie = categorie;
+            alleItems = itemDAO.GetAll();
+            this.itemsVanBestelling = itemsVanBestelling;
             VulSelectieItems();
             InitializeComponent();
         }
@@ -41,16 +39,41 @@ namespace MayaMaya_Concept
         private void btnBijvoegen_Click(object sender, EventArgs e)
         {
             lstItems.Select();
+            int x = 0;
+            bool b = false;
+            Item itm;
             try
             {
                 ListView.SelectedIndexCollection selectie = lstItems.SelectedIndices;
                 int index = selectie[0];
-                bestelling.Add(alleItems[index]);
-            }
-            catch
-            {
+                if (selectieItems[index].Aantal > 0)
+                {
+                    selectieItems[index].Aantal = selectieItems[index].Aantal - 1;
 
+                    foreach(Item i in itemsVanBestelling)
+                    {
+                        if (i.Naam == selectieItems[index].Naam)
+                            b = true;
+                    }
+
+                    if (!b)
+                    {
+                        itm = new Item(selectieItems[index].ItemId, selectieItems[index].Naam, selectieItems[index].Prijs,
+                            selectieItems[index].Btw, 1, selectieItems[index].Categorienaam, selectieItems[index].Menukaartnaam);
+
+                        itemsVanBestelling.Add(itm);
+                    }
+                    else
+                    {
+                        foreach(Item i in itemsVanBestelling)
+                        {
+                            if (i.Naam == selectieItems[index].Naam)
+                                i.Aantal++;
+                        }
+                    }
+                }
             }
+            catch { }
 
         }
 
@@ -60,7 +83,6 @@ namespace MayaMaya_Concept
 
             foreach (Item i in alleItems)
             {
-
                 if (GoedeCategorie(i))
                     selectieItems.Add(i);
             }
@@ -94,25 +116,53 @@ namespace MayaMaya_Concept
                     if (i.Categorienaam == "Voorgerechten" && i.Menukaartnaam == "Lunch")
                         return true;
                     break;
+                case Categorie.HoofdL:
+                    if (i.Categorienaam == "Hoofdgerechten" && i.Menukaartnaam == "Lunch")
+                        return true;
+                    break;
+                case Categorie.NaL:
+                    if (i.Categorienaam == "Nagerechten" && i.Menukaartnaam == "Lunch")
+                        return true;
+                    break;
+                case Categorie.VoorD:
+                    if (i.Categorienaam == "Voorgerechten" && i.Menukaartnaam == "Diner")
+                        return true;
+                    break;
+                case Categorie.TussenD:
+                    if (i.Categorienaam == "Tussengerechten")
+                        return true;
+                    break;
+                case Categorie.HoofdD:
+                    if (i.Categorienaam == "Hoofdgerechten" && i.Menukaartnaam == "Diner")
+                        return true;
+                    break;
+                case Categorie.NaD:
+                    if (i.Categorienaam == "Nagerechten" && i.Menukaartnaam == "Diner")
+                        return true;
+                    break;
+                default:
+                    return false;
             }
-
             return false;
         }
 
         private void Opneemscherm_Load(object sender, EventArgs e)
         {
+            lblPersoneel.Text = personeelslid.Naam;
             VulListView();
             lstItems.Select();
+            label4.Text = selectieItems[0].Menukaartnaam + " " + selectieItems[0].Categorienaam;
         }
 
         private void VulListView()
         {
             lstItems.Columns.Add("Naam", 190);
-            lstItems.Columns.Add("aantal", 45);
+            lstItems.Columns.Add("Voorraad", 45);
             string[] entry = new string[2];
+            VulSelectieItems();
             ListViewItem itm;
 
-            foreach (Item i in alleItems)
+            foreach (Item i in selectieItems)
             {
                 entry[0] = i.Naam;
                 entry[1] = i.Aantal.ToString();
@@ -123,10 +173,16 @@ namespace MayaMaya_Concept
 
         private void btnCheck_Click(object sender, EventArgs e)
         {
-            Checkscherm form = new Checkscherm(bestelling);
+            form = new Checkscherm(itemsVanBestelling, bestelling, personeelslid, bestellingDAO);
             Hide();
             form.ShowDialog();
+            itemsVanBestelling = form.itemsVanBestelling;
             Show();
+        }
+
+        private void btnTerug_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

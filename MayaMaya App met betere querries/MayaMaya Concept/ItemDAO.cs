@@ -11,7 +11,13 @@ namespace MayaMaya_Concept
     public class ItemDAO
     {
         SqlConnection dbConnection;
-        
+
+        public List<Item> Items
+        {
+            get;
+            set;
+        }
+
         public ItemDAO(SqlConnection dbConnection)
         {
             this.dbConnection = dbConnection;
@@ -20,7 +26,7 @@ namespace MayaMaya_Concept
         public List<Item> GetAll()
         {
             dbConnection.Close();
-            List<Item> items = new List<Item>();
+            Items = new List<Item>();
 
             // Open database connectie
             dbConnection.Open();
@@ -47,12 +53,12 @@ namespace MayaMaya_Concept
 
                 Item item = new Item(itemId, itemNaam, prijs, btw, aantal,
                     categorieNaam, menukaartNaam);
-                items.Add(item);
+                Items.Add(item);
             }
 
             dbConnection.Close();
 
-            return items;
+            return Items;
         }
 
         public void DeleteItem(Item item)
@@ -92,7 +98,7 @@ namespace MayaMaya_Concept
 
         public List<Item> GetItemsInBestelling(int bestelnummer)
         {
-            List<Item> items = new List<Item>();
+            Items = new List<Item>();
 
             // Open database connectie
             dbConnection.Open();
@@ -123,12 +129,12 @@ namespace MayaMaya_Concept
 
                 Item item = new Item(itemId, itemNaam, prijs, btw, aantal,
                     categorieNaam, menukaartNaam);
-                items.Add(item);
+                Items.Add(item);
             }
 
             dbConnection.Close();
 
-            return items;
+            return Items;
         }
     }
 }

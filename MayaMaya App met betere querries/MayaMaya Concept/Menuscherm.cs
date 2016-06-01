@@ -382,9 +382,16 @@ namespace MayaMaya_Concept
             this.Close();
         }
 
+        private Tafelscherm MaakTafelscherm(int tafelNummer)
+        {
+            Tafelscherm tafelscherm = new Tafelscherm(tafelLijst[tafelNummer], tafelDAO, itemDAO, bestellingDAO, personeelslid);
+
+            return tafelscherm;
+        }
+
         private void btnTafel1_Click(object sender, EventArgs e)
         {
-            Tafelscherm tafelscherm = new Tafelscherm(tafelLijst[0], tafelDAO, itemDAO);
+            Tafelscherm tafelscherm = MaakTafelscherm(0);
             this.Hide();
             tafelscherm.ShowDialog();
             btnTafel1.Refresh();
@@ -392,7 +399,7 @@ namespace MayaMaya_Concept
         }
         private void btnTafel2_Click(object sender, EventArgs e)
         {
-            Tafelscherm tafelscherm = new Tafelscherm(tafelLijst[1], tafelDAO, itemDAO);
+            Tafelscherm tafelscherm = MaakTafelscherm(1);
             this.Hide();
             tafelscherm.ShowDialog();
             btnTafel2.Refresh();
@@ -400,7 +407,7 @@ namespace MayaMaya_Concept
         }
         private void btnTafel3_Click(object sender, EventArgs e)
         {
-            Tafelscherm tafelscherm = new Tafelscherm(tafelLijst[2], tafelDAO, itemDAO);
+            Tafelscherm tafelscherm = MaakTafelscherm(2);
             this.Hide();
             tafelscherm.ShowDialog();
             btnTafel3.Refresh();
@@ -408,7 +415,7 @@ namespace MayaMaya_Concept
         }
         private void btnTafel4_Click(object sender, EventArgs e)
         {
-            Tafelscherm tafelscherm = new Tafelscherm(tafelLijst[3], tafelDAO, itemDAO);
+            Tafelscherm tafelscherm = MaakTafelscherm(3);
             this.Hide();
             tafelscherm.ShowDialog();
             btnTafel4.Refresh();
@@ -416,7 +423,7 @@ namespace MayaMaya_Concept
         }
         private void btnTafel5_Click(object sender, EventArgs e)
         {
-            Tafelscherm tafelscherm = new Tafelscherm(tafelLijst[4], tafelDAO, itemDAO);
+            Tafelscherm tafelscherm = MaakTafelscherm(4);
             this.Hide();
             tafelscherm.ShowDialog();
             btnTafel5.Refresh();
@@ -424,7 +431,7 @@ namespace MayaMaya_Concept
         }
         private void btnTafel6_Click(object sender, EventArgs e)
         {
-            Tafelscherm tafelscherm = new Tafelscherm(tafelLijst[5], tafelDAO, itemDAO);
+            Tafelscherm tafelscherm = MaakTafelscherm(5);
             this.Hide();
             tafelscherm.ShowDialog();
             btnTafel6.Refresh();
@@ -432,7 +439,7 @@ namespace MayaMaya_Concept
         }
         private void btnTafel7_Click(object sender, EventArgs e)
         {
-            Tafelscherm tafelscherm = new Tafelscherm(tafelLijst[6], tafelDAO, itemDAO);
+            Tafelscherm tafelscherm = MaakTafelscherm(6);
             this.Hide();
             tafelscherm.ShowDialog();
             btnTafel7.Refresh();
@@ -440,7 +447,7 @@ namespace MayaMaya_Concept
         }
         private void btnTafel8_Click(object sender, EventArgs e)
         {
-            Tafelscherm tafelscherm = new Tafelscherm(tafelLijst[7], tafelDAO, itemDAO);
+            Tafelscherm tafelscherm = MaakTafelscherm(7);
             this.Hide();
             tafelscherm.ShowDialog();
             btnTafel8.Refresh();
@@ -448,7 +455,7 @@ namespace MayaMaya_Concept
         }
         private void btnTafel9_Click(object sender, EventArgs e)
         {
-            Tafelscherm tafelscherm = new Tafelscherm(tafelLijst[8], tafelDAO, itemDAO);
+            Tafelscherm tafelscherm = MaakTafelscherm(8);
             this.Hide();
             tafelscherm.ShowDialog();
             btnTafel9.Refresh();
@@ -456,7 +463,7 @@ namespace MayaMaya_Concept
         }
         private void btnTafel10_Click(object sender, EventArgs e)
         {
-            Tafelscherm tafelscherm = new Tafelscherm(tafelLijst[9], tafelDAO, itemDAO);
+            Tafelscherm tafelscherm = MaakTafelscherm(9);
             this.Hide();
             tafelscherm.ShowDialog();
             btnTafel10.Refresh();
