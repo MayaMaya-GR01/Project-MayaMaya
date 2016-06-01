@@ -13,19 +13,15 @@ namespace MayaMaya_Concept
     public partial class Tafelscherm : Form
     {
         Tafel tafel;
-        Personeelslid personeelslid;
         TafelDAO tafelDAO;
         ItemDAO itemDAO;
-        BestellingDAO bestellingDAO;
 
-        public Tafelscherm(Tafel tafel, TafelDAO tafelDAO, ItemDAO itemDAO, BestellingDAO bestellingDAO, Personeelslid personeelslid)
+        public Tafelscherm(Tafel tafel, TafelDAO tafelDAO, ItemDAO itemDAO)
         {
             InitializeComponent();
             this.tafel = tafel;
             this.tafelDAO = tafelDAO;
             this.itemDAO = itemDAO;
-            this.bestellingDAO = bestellingDAO;
-            this.personeelslid = personeelslid;
         }
 
         private void btnBevestig_Click(object sender, EventArgs e)
@@ -72,7 +68,7 @@ namespace MayaMaya_Concept
 
         private void btnOpnemen_Click(object sender, EventArgs e)
         {
-            Bestelscherm bestellingscherm = new Bestelscherm(itemDAO, bestellingDAO, tafel, personeelslid);
+            Bestelscherm bestellingscherm = new Bestelscherm(itemDAO);
             this.Hide();
             bestellingscherm.ShowDialog();
             this.Show();

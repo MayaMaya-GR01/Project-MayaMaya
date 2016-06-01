@@ -35,7 +35,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.btnTerug = new System.Windows.Forms.Button();
-            this.lblPersoneel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnNa
@@ -109,21 +108,11 @@
             this.btnTerug.UseVisualStyleBackColor = true;
             this.btnTerug.Click += new System.EventHandler(this.btnTerug_Click);
             // 
-            // lblPersoneel
-            // 
-            this.lblPersoneel.AutoSize = true;
-            this.lblPersoneel.Location = new System.Drawing.Point(12, 77);
-            this.lblPersoneel.Name = "lblPersoneel";
-            this.lblPersoneel.Size = new System.Drawing.Size(35, 13);
-            this.lblPersoneel.TabIndex = 49;
-            this.lblPersoneel.Text = "label1";
-            // 
             // BestelschermLunch
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(289, 482);
-            this.Controls.Add(this.lblPersoneel);
             this.Controls.Add(this.btnNa);
             this.Controls.Add(this.btnHoofd);
             this.Controls.Add(this.btnVoor);
@@ -132,9 +121,7 @@
             this.Controls.Add(this.btnTerug);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "BestelschermLunch";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Bestelscherm Lunch";
-            this.Load += new System.EventHandler(this.BestelschermLunch_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -148,6 +135,5 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnTerug;
-        private System.Windows.Forms.Label lblPersoneel;
     }
 }

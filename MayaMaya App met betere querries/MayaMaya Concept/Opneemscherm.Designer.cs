@@ -35,7 +35,6 @@
             this.btnTerug = new System.Windows.Forms.Button();
             this.btnBijvoegen = new System.Windows.Forms.Button();
             this.btnCheck = new System.Windows.Forms.Button();
-            this.lblPersoneel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lstItems
@@ -68,13 +67,12 @@
             this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(-67, 0);
+            this.label4.Location = new System.Drawing.Point(-27, 0);
             this.label4.Name = "label4";
             this.label4.Padding = new System.Windows.Forms.Padding(125, 3, 120, 3);
             this.label4.Size = new System.Drawing.Size(359, 26);
             this.label4.TabIndex = 45;
             this.label4.Text = "Drank Bestellen";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // btnTerug
             // 
@@ -89,7 +87,6 @@
             this.btnTerug.Text = "Terug";
             this.btnTerug.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTerug.UseVisualStyleBackColor = true;
-            this.btnTerug.Click += new System.EventHandler(this.btnTerug_Click);
             // 
             // btnBijvoegen
             // 
@@ -111,21 +108,11 @@
             this.btnCheck.UseVisualStyleBackColor = true;
             this.btnCheck.Click += new System.EventHandler(this.btnCheck_Click);
             // 
-            // lblPersoneel
-            // 
-            this.lblPersoneel.AutoSize = true;
-            this.lblPersoneel.Location = new System.Drawing.Point(12, 79);
-            this.lblPersoneel.Name = "lblPersoneel";
-            this.lblPersoneel.Size = new System.Drawing.Size(35, 13);
-            this.lblPersoneel.TabIndex = 49;
-            this.lblPersoneel.Text = "label1";
-            // 
             // Opneemscherm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(289, 482);
-            this.Controls.Add(this.lblPersoneel);
             this.Controls.Add(this.btnCheck);
             this.Controls.Add(this.btnBijvoegen);
             this.Controls.Add(this.label5);
@@ -133,7 +120,6 @@
             this.Controls.Add(this.btnTerug);
             this.Controls.Add(this.lstItems);
             this.Name = "Opneemscherm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Opneemscherm";
             this.Load += new System.EventHandler(this.Opneemscherm_Load);
             this.ResumeLayout(false);
@@ -149,6 +135,5 @@
         private System.Windows.Forms.Button btnTerug;
         private System.Windows.Forms.Button btnBijvoegen;
         private System.Windows.Forms.Button btnCheck;
-        private System.Windows.Forms.Label lblPersoneel;
     }
 }

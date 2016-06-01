@@ -13,36 +13,21 @@ namespace MayaMaya_Concept
     public partial class BestelschermLunch : Form
     {
         ItemDAO itemDAO;
-        BestellingDAO bestellingDAO;
-        Bestelling bestelling;
-        Personeelslid personeelslid;
-        List<Item> itemsVanBestelling;
 
-        public BestelschermLunch(ItemDAO itemDAO, List<Item> itemsVanBestelling, Bestelling bestelling, 
-            Personeelslid personeelslid, BestellingDAO bestellingDAO)
+        public BestelschermLunch(ItemDAO itemDAO)
         {
-            this.bestellingDAO = bestellingDAO;
-            this.bestelling = bestelling;
-            this.personeelslid = personeelslid;
-            this.itemsVanBestelling = itemsVanBestelling;
             this.itemDAO = itemDAO;
             InitializeComponent();
         }
 
         private void btnTerug_Click(object sender, EventArgs e)
         {
-            //Gebeurt als de terug knop geklikt wordt.
-
-            //Sluit het huidige scherm.
             Close();
         }
 
         private void MaakOpneemscherm(Categorie categorie)
         {
-            //Methode voor het maken van een opneemscherm.
-            //Categorie bepaalt welke items in de lijst zichtbaar zullen zijn.
-
-            Opneemscherm form = new Opneemscherm(itemDAO, categorie, itemsVanBestelling, bestelling, personeelslid, bestellingDAO);
+            Opneemscherm form = new Opneemscherm(itemDAO, categorie);
             Hide();
             form.ShowDialog();
             Show();
@@ -61,11 +46,6 @@ namespace MayaMaya_Concept
         private void btnNa_Click(object sender, EventArgs e)
         {
             MaakOpneemscherm(Categorie.NaL);
-        }
-
-        private void BestelschermLunch_Load(object sender, EventArgs e)
-        {
-            lblPersoneel.Text = personeelslid.Naam;
         }
     }
 }
